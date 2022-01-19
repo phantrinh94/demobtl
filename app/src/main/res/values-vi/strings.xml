@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rao vặt online</string>
+    <string name="all_category">Tất cả danh mục</string>
+    <string name="xe_co">Xe cộ</string>
+    <string name="bat_dong_san">Bất động sản</string>
+    <string name="van_phong">Văn Phòng</string>
+    <string name="dien_may">Điện máy</string>
+    <string name="di_dong">Di Động</string>
+    <string name="thoi_trang">Thời trang</string>
+    <string name="dc_the_thao">Dụng cụ thể thao</string>
+    <string name="do_gia_dung">Đồ gia dụng</string>
+    <string name="dang_tin">Đăng tin rao vặt</string>
+    <string name="full_name">Họ và Tên</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="content">Nội dung</string>
+    <string name="address">Địa chỉ</string>
+    <string name="post_new">Đăng tin</string>
+</resources>

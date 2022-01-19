@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menu_dangTin"
+        android:title="Đăng tin rao vặt"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/menu_xemTin"
+        android:title="Xem tin"
+        tools:ignore="HardcodedText" />
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/purple"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostNewActivity">
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:text="@string/dang_tin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"/>
+    <EditText
+        android:maxLength="56"
+        android:id="@+id/edt_fullName"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:hint="@string/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/edt_phoneNumber"
+        android:inputType="number"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:hint="@string/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill,TextFields" />
+    <EditText
+        android:maxLength="128"
+        android:id="@+id/edt_content"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:hint="@string/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_addressPost"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:hint="@string/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_custom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_postNews"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_chat_24"
+            android:layout_width="60dp"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:textColor="@color/white"
+            android:layout_marginRight="70dp"
+            android:id="@+id/btn_postNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_postNews"
+            android:background="@drawable/bg_custom_button"
+            android:text="@string/post_new"
+            tools:ignore="RtlHardcoded,RtlSymmetry,UsingOnClickInXml" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

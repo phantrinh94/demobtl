@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ads Online</string>
+    <string name="all_category">All Category</string>
+    <string name="xe_co">Vehicle</string>
+    <string name="bat_dong_san">Real Estate</string>
+    <string name="van_phong">Office</string>
+    <string name="dien_may">Electric</string>
+    <string name="di_dong">Mobile</string>
+    <string name="thoi_trang">Fashion</string>
+    <string name="dc_the_thao">Sport</string>
+    <string name="do_gia_dung">Family</string>
+    <string name="dang_tin">Đăng tin rao vặt</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="content">Content</string>
+    <string name="address">Address</string>
+    <string name="post_new">Post New</string>
+</resources>
